@@ -1,0 +1,21 @@
+folders and files
+---
+- node_modules: contains node packages
+- package.json declare dependencies and another main attributes
+- package-lock.json describes packages
+- public: contains result files
+- src: sources files
+
+commands
+---
+  npm
+
+  start: start app on localhost:3000 by default
+
+mapping
+---
+  list.map(function(item){ return item;});
+
+vars
+---
+  const: constants
