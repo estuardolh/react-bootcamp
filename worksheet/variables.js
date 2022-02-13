@@ -21,3 +21,12 @@ var aMap = {
 };
 
 console.log(aMap);
+
+
+console.log("--- spread operation: ");
+
+const arraySource = ['one', 'two'];
+const arrayTarget = [...arraySource, 'three'];
+
+console.log('array source + target: ' + arrayTarget);
+

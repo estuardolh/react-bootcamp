@@ -19,3 +19,7 @@ mapping
 vars
 ---
   const: constants
+
+operator
+---
+  === for comparing Type and Value
