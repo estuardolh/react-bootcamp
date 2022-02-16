@@ -1,13 +1,11 @@
 import './ExpenseItem.css'
 
-function ExpenseItem() {
-    const aVariable = 'yay!';
-
+function ExpenseItem(props) {
     return (<div className="expense-item">
-        <div >Title</div>
+        <div >{props.name}</div>
         <div className="expense-item__description">
-            <h2>expense item! {aVariable}</h2>
-            <div className="expense-item__price">$999</div>
+            <h2>expense item!</h2>
+            <div className="expense-item__price">{props.price}</div>
         </div>
         </div>)
 }
