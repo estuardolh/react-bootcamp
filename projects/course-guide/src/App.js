@@ -20,9 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <ExpenseItem name={expenses[0].name} price={expenses[0].price}></ExpenseItem>
-      <ExpenseItem name={expenses[1].name} price={expenses[1].price}></ExpenseItem>
-      <ExpenseItem name={expenses[2].name} price={expenses[2].price}></ExpenseItem>
+      <ExpenseItem name={expenses[0].name} price={expenses[0].price} date={new Date()}></ExpenseItem>
     </div>
   );
 }
